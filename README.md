@@ -7,8 +7,7 @@ This is an AI-powered Streamlit application that allows users to upload UPI tran
 
 ## 🚀 Features
 
-✅ Upload and parse PDF bank/UPI statements  
-✅ Extract structured transaction data (Date, Amount, Receiver, Category, etc.)  
+✅ Upload and parse PDF bank/UPI statements   
 ✅ Categorize transactions intelligently (e.g., Food, Utilities, UPI Payments)  
 ✅ Visualize expenses by category and time  
 ✅ View total income, expenses, and savings %  
@@ -23,10 +22,14 @@ This is an AI-powered Streamlit application that allows users to upload UPI tran
 1. **Upload** your UPI PDF statement
 2. The app **extracts & parses** transaction data using PyMuPDF
 3. It **categorizes** and **visualizes** your expenses
-4. A built-in **LLM (via OpenAI API)** analyzes the data and generates:
+4. A built-in **LLM (via Gemini API)** analyzes the data and generates:
    - Monthly budget insights
    - Wasteful spending alerts
    - Smart financial suggestions
+
+🔗 **Live Demo on Hugging Face Spaces**: 
+[Click here](https://huggingface.co/spaces/ramyaanbu56/ramya56)
+
 
 
 
